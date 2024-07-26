@@ -1,0 +1,2241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="pxabnsnfns10111110111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="false" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4893B8">
+  <layouts>
+    <layout name="npnxnanbsnfns10111110111" font="Lato" controllayout="npnxnanbsnfns10111110111" colorscheme="pxabnsnfns10111110111" string_table="pxabnsnfns10111110111" />
+    <layout name="pxabnsnfns10111110111" font="Lato" controllayout="pxabnsnfns10111110111" colorscheme="pxabnsnfns10111110111" string_table="pxabnsnfns10111110111" />
+    <layout name="npxnabnsnfns10111110111" font="Lato" controllayout="npxnabnsnfns10111110111" colorscheme="pxabnsnfns10111110111" string_table="pxabnsnfns10111110111" />
+    <layout name="npnxnanbnsnfns10111110111" font="Lato" controllayout="npnxnanbnsnfns10111110111" colorscheme="pxabnsnfns10111110111" string_table="pxabnsnfns10111110111" />
+    <layout name="pxabnsnfns10111110110" font="Lato" controllayout="pxabnsnfns10111110110" colorscheme="pxabnsnfns10111110111" string_table="pxabnsnfns10111110111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Drsek_LearningObjectives" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="glossary" value="true" group="linkleft" />
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="none" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true" />
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="true" />
+          <option name="playbackSpeedControl" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+      <optiongroup name="courseOptions">
+        <options>
+          <option name="thumbnailEnabled" value="true" />
+          <option name="thumbnailDisplayName" value="Slide: Learning Obj Title" />
+          <option name="thumbnailUrl" value="story_content/5Vqa97Sk2nr.png" />
+        </options>
+      </optiongroup>
+      <optiongroup name="ccOptions">
+        <options>
+          <option name="font" value="Lato" />
+          <option name="size" value="100" />
+          <option name="placement" value="100" />
+          <option name="backgroundColor" value="#000000FF" />
+          <option name="color" value="#FFFFFFFF" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111110111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111110110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns10111110111">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x214400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428E00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E5D00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C7C00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="80" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x373737" alpha="77" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="1" stop="89" />
+                <color rgb="0x000000" alpha="6" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="5" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x919191" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4893B8" alpha="30" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x464646" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x8E8F8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns10111110111">
+      <string id="acc_cc_hide">Hide captions (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Show captions (Ctrl+Alt+C)</string>
+      <string id="acc_enter_fullscreen">Enter full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_exit_fullscreen">Exit full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_mute">Mute (Ctrl+Alt+M)</string>
+      <string id="acc_next">Next (Ctrl+Alt+Period)</string>
+      <string id="acc_next_visual">Next (Ctrl+Alt+.)</string>
+      <string id="acc_pause">Pause (Ctrl+Alt+P)</string>
+      <string id="acc_play">Play (Ctrl+Alt+P)</string>
+      <string id="acc_playback_speed">Playback speed</string>
+      <string id="acc_previous">Previous (Ctrl+Alt+Comma)</string>
+      <string id="acc_previous_visual">Previous (Ctrl+Alt+,)</string>
+      <string id="acc_replay">Replay (Ctrl+Alt+R)</string>
+      <string id="acc_search_input">search</string>
+      <string id="acc_settings">Settings</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="acc_submit">Submit (Ctrl+Alt+S)</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="acc_unmute">Unmute (Ctrl+Alt+M)</string>
+      <string id="acc_video_transcript_list">Transcript</string>
+      <string id="acc_visited">visited</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_window_options">Options</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="action">Action</string>
+      <string id="alt_key">Alt</string>
+      <string id="background_audio">Background audio</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="closed_captions">Captions</string>
+      <string id="closedcaptions_shortcut">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="filter">Filter</string>
+      <string id="fullscreen_shortcut">Toggle full-screen</string>
+      <string id="glossary">Glossary</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next">NEXT</string>
+      <string id="next_shortcut">Next</string>
+      <string id="outline">Menu</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="prev">PREV</string>
+      <string id="previous_shortcut">Previous</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="replay_shortcut">Replay</string>
+      <string id="resources">Resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="search_toggle">Search</string>
+      <string id="shift_key">Shift</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="submit">SUBMIT</string>
+      <string id="submit_shortcut">Submit</string>
+      <string id="terms">Terms</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="transcript">Notes</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Calibri">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Times New Roman">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5ZTnzS0JzRm" displaytext="Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5ZTnzS0JzRm.64iKP59b0bR" displaytext="Learning Obj Title" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZTnzS0JzRm.5tSjOeU9ycE" displaytext="INTRODUCTION" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZTnzS0JzRm.6mf7EaES2nl" displaytext="Welcome Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZTnzS0JzRm.5iwW0vRCEdF" displaytext="Remove Distractions" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZTnzS0JzRm.5lgINSpBn9z" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5ZTnzS0JzRm.5qOZqWnjQrG" displaytext="Rate your knowledge" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5weohW4vBB0" displaytext="Triggering" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5weohW4vBB0.6lN4oAPNUIH" displaytext="TRIGGERING" expand="false" type="slide" />
+            <slidelink slideid="_player.5weohW4vBB0.61nJJCPzAGU" displaytext="How often do you create learning objectives in your class?" expand="false" type="slide" />
+            <slidelink slideid="_player.5weohW4vBB0.6PrCKrcpV1R" displaytext="Ice Breaker" expand="false" type="slide" />
+            <slidelink slideid="_player.5weohW4vBB0.5VERe94msoj" displaytext="Ice Breaker Discussion" expand="false" type="slide" />
+            <slidelink slideid="_player.5weohW4vBB0.6DwuhFdiaqk" displaytext="Big Idea" expand="false" type="slide" />
+            <slidelink slideid="_player.5weohW4vBB0.6SSmfTEnvkg" displaytext="Did You Know...?" expand="false" type="slide" />
+            <slidelink slideid="_player.5weohW4vBB0.66YvlVejUCY" displaytext="Learning Goals" expand="false" type="slide" />
+            <slidelink slideid="_player.5weohW4vBB0.5w9ujt31K3l" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6kzrCffFph3.5k0oJralR5q" displaytext="Question" expand="false" type="slide" />
+            <slidelink slideid="_player.5weohW4vBB0.5winzHWgypN" displaytext="Ice Breaker Answer" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6kzrCffFph3" displaytext="Exploration" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6kzrCffFph3.6bZBOm1NCpJ" displaytext="EXPLORATION" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.6kuI0K5CXha" displaytext="RESOLUTION" expand="false" type="slide" />
+            <slidelink slideid="_player.6kzrCffFph3.6YxJCOpG48i" displaytext="Constiderations" expand="false" type="slide" />
+            <slidelink slideid="_player.6kzrCffFph3.6VwZ2GBLxfv" displaytext="Attributes of Learning Obj" expand="false" type="slide" />
+            <slidelink slideid="_player.6kzrCffFph3.5si5KjgTCW5" displaytext="Specific" expand="false" type="slide" />
+            <slidelink slideid="_player.6kzrCffFph3.5l5HMQqGh7z" displaytext="Measurable" expand="false" type="slide" />
+            <slidelink slideid="_player.6kzrCffFph3.6ZacpzUXo9S" displaytext="Short-Term" expand="false" type="slide" />
+            <slidelink slideid="_player.6kzrCffFph3.6WkjlxH99Wr" displaytext="Appropriate" expand="false" type="slide" />
+            <slidelink slideid="_player.6kzrCffFph3.5mBpcTPTLv7" displaytext="Important" expand="false" type="slide" />
+            <slidelink slideid="_player.6kzrCffFph3.5n7ZQfU6eFE" displaytext="Question" expand="false" type="slide" />
+            <slidelink slideid="_player.6kzrCffFph3.6mO9Iyd8TmD" displaytext="Drag and Drop each characteristic with its meaning" expand="false" type="slide" />
+            <slidelink slideid="_player.6kzrCffFph3.6lq8MxwIcf2" displaytext="Choose the following questions that you should consider before creating a learning objective. Select all that apply. " expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5dWBNJZA10Q" displaytext="Integration" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5dWBNJZA10Q.6rKz21zKXjs" displaytext="Integration" expand="false" type="slide" />
+            <slidelink slideid="_player.5dWBNJZA10Q.5W59wkDyyqE" displaytext="Appropriate Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5dWBNJZA10Q.65DU5yC6X6v" displaytext="Objective Vs. Outcome" expand="false" type="slide" />
+            <slidelink slideid="_player.5dWBNJZA10Q.5anucEExFCT" displaytext="Ask Yourself" expand="false" type="slide" />
+            <slidelink slideid="_player.5dWBNJZA10Q.5zYWEvNZ7Pu" displaytext="Case Study" expand="false" type="slide" />
+            <slidelink slideid="_player.5dWBNJZA10Q.6n2JixT2hzD" displaytext="Case Study Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5dWBNJZA10Q.5dIHugJTgIB" displaytext="Case Study Answer Form" expand="false" type="slide" />
+            <slidelink slideid="_player.5dWBNJZA10Q.6MpmLD90pxH" displaytext="Case Study Answers/Discussion" expand="false" type="slide" />
+            <slidelink slideid="_player.5dWBNJZA10Q.5dxTMN35shC" displaytext="Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.5dWBNJZA10Q.6PMIFfjzB4Y" displaytext="Question" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6SLXaezMnvv" displaytext="Resolution" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6SLXaezMnvv.6Gac6R1ffeM" displaytext="Post Lesson Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.6M8JNMl1nzQ" displaytext="Big Idea" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.5kmQtpjLpv6" displaytext="Name Certificate" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.5k8YDK9MU7K" displaytext="Question 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.6h5cfG4MRSm" displaytext="Question 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.6fkR8cZguzZ" displaytext="Question 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.6g8UE4yh8Ao" displaytext="Question 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.5s1O4gLUuxi" displaytext="Question 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.6dnmyOTOyhQ" displaytext="Passing Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.6IEZdGedhpI" displaytext="Try again" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.5WmPo0d6Al4" displaytext="Certificate" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.63oH3FxkttO" displaytext="Questions" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.6VxVnQkHbPb" displaytext="Thank You" expand="false" type="slide" />
+            <slidelink slideid="_player.6SLXaezMnvv.5Y6w2r1Ao3i" displaytext="Recources" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="5ZTnzS0JzRm.64iKP59b0bR" slidebank="false" type="slide">learning objectives by: alexandra drsek </slidetext>
+      <slidetext slideid="5ZTnzS0JzRm.5tSjOeU9ycE" slidebank="false" type="slide">introduction</slidetext>
+      <slidetext slideid="5ZTnzS0JzRm.6mf7EaES2nl" slidebank="false" type="slide">welcome! today we will be learning about how to create effective learning objectives. </slidetext>
+      <slidetext slideid="5ZTnzS0JzRm.5iwW0vRCEdF" slidebank="false" type="slide">remove distractions put any electronics to the side, shut your door, and remove any distractions. </slidetext>
+      <slidetext slideid="5ZTnzS0JzRm.5lgINSpBn9z" slidebank="false" type="slide">learning objectives by the end of this course, you will be able to… define what a learning objective is list the five characteristics of learning objectives create your own learning objectives  </slidetext>
+      <slidetext slideid="5ZTnzS0JzRm.5qOZqWnjQrG" slidebank="false" type="slide">rate your understanding on the scale of 1-5 how knowledgeable do you think you are about learning objectives?  1.  unfamiliar 2. sort of familiar 3. familiar 4. mostly familiar 5. knowledgeable/expert     </slidetext>
+      <slidetext slideid="5weohW4vBB0.6lN4oAPNUIH" slidebank="false" type="slide">triggering phase</slidetext>
+      <slidetext slideid="5weohW4vBB0.61nJJCPzAGU" slidebank="false" type="slide"> sometimes sometimes sometimes sometimes sometimes sometimes all the time all the time all the time all the time all the time all the time how often do you create learning objectives in your class? never never never never never never </slidetext>
+      <slidetext slideid="5weohW4vBB0.6PrCKrcpV1R" slidebank="false" type="slide">ice breaker you are about to teach a lesson to your students about fractions, create a learning objective that you would present to the class. </slidetext>
+      <slidetext slideid="5weohW4vBB0.5winzHWgypN" slidebank="false" type="slide">  you are teaching your students a lesson on fractions, create a learning objective that you would present to the class </slidetext>
+      <slidetext slideid="5weohW4vBB0.5VERe94msoj" slidebank="false" type="slide">ice breaker examples - students will be able to define numerators and denominators - students will be able to identify numerators and denominators - students will be able to identify fractions from charts </slidetext>
+      <slidetext slideid="5weohW4vBB0.6DwuhFdiaqk" slidebank="false" type="slide">big idea learning objectives are critical to classroom learning and should be specific enough to emphasize the main idea of a lesson </slidetext>
+      <slidetext slideid="5weohW4vBB0.6SSmfTEnvkg" slidebank="false" type="slide">did you know…? many educators tend to confused learning objectives with learning goals </slidetext>
+      <slidetext slideid="5weohW4vBB0.66YvlVejUCY" slidebank="false" type="slide">learning goals a learning goal is a broad generalized statement describing what students will understand.  </slidetext>
+      <slidetext slideid="5weohW4vBB0.5w9ujt31K3l" slidebank="false" type="slide">learning objectives learning objectives are specific and tangible statements of what is expected of students by the end of the lesson.  </slidetext>
+      <slidetext slideid="6kzrCffFph3.6bZBOm1NCpJ" slidebank="false" type="slide">exploration phase</slidetext>
+      <slidetext slideid="6kzrCffFph3.5k0oJralR5q" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again learning objectives are specific and measurable expectations of a lesson incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  learning goals learning goals learning goals learning goals learning goals learning goals  which of the following is a narrow and measurable expectation of lessons? learning objectives learning objectives learning objectives learning objectives learning objectives learning objectives</slidetext>
+      <slidetext slideid="6kzrCffFph3.6YxJCOpG48i" slidebank="false" type="slide">considerations before creating a learning objective for your lesson, you should consider the following: what do you want students to achieve during this lesson? how will students’ growth be measured? how will students demonstrate what they have learned? </slidetext>
+      <slidetext slideid="6kzrCffFph3.6lq8MxwIcf2" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again these questions will be related to the characteristics of learning objectives so keep this in mind throughout this lesson. incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  how much will students enjoy this lesson? how much will students enjoy this lesson? how much will students enjoy this lesson? how much will students enjoy this lesson? how much will students enjoy this lesson? how much will students enjoy this lesson? how will students demonstrate what they have learned? how will students demonstrate what they have learned? how will students demonstrate what they have learned? how will students demonstrate what they have learned? how will students demonstrate what they have learned? how will students demonstrate what they have learned?  choose the following questions that you should consider before creating a learning objective. select all that apply.  what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson?</slidetext>
+      <slidetext slideid="6kzrCffFph3.5si5KjgTCW5" slidebank="false" type="slide">specific a learning objective should specifically describe what the learner is expected to achieve/learn. </slidetext>
+      <slidetext slideid="6kzrCffFph3.5l5HMQqGh7z" slidebank="false" type="slide">measurable there must be a way to measure students' growth while learning. </slidetext>
+      <slidetext slideid="6kzrCffFph3.6ZacpzUXo9S" slidebank="false" type="slide">short-term learning objectives should be made short-term rather than long-term </slidetext>
+      <slidetext slideid="6kzrCffFph3.6WkjlxH99Wr" slidebank="false" type="slide">appropriate learning objectives should be appropriate to students learning abilities.  </slidetext>
+      <slidetext slideid="6kzrCffFph3.5mBpcTPTLv7" slidebank="false" type="slide">important learning objectives should be essential to students' skills and growth during the specific lesson.   </slidetext>
+      <slidetext slideid="6kzrCffFph3.5n7ZQfU6eFE" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again c. is the correct answer. learning objectives are specific, measurable, short-term, appropriate, and important incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  broad, measurable, short-term, appropriate, important broad, measurable, short-term, appropriate, important broad, measurable, short-term, appropriate, important broad, measurable, short-term, appropriate, important broad, measurable, short-term, appropriate, important broad, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, irrelevant specific, measurable, short-term, appropriate, irrelevant specific, measurable, short-term, appropriate, irrelevant specific, measurable, short-term, appropriate, irrelevant specific, measurable, short-term, appropriate, irrelevant specific, measurable, short-term, appropriate, irrelevant  which of the following includes the 5 characteristics of learning objectives? specific, measurable, long-term, appropriate, important specific, measurable, long-term, appropriate, important specific, measurable, long-term, appropriate, important specific, measurable, long-term, appropriate, important specific, measurable, long-term, appropriate, important specific, measurable, long-term, appropriate, important</slidetext>
+      <slidetext slideid="6kzrCffFph3.6mO9Iyd8TmD" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again here are the answers to the drag and drop.  specific a learning objective should describe what the learner is expected to achieve/learn. measurable there must be a way to track students' growth while learning. short-term learning objectives should be made to fit the lesson rather than the unit appropriate learning objectives should be made to adapt to students age and ability level  important learning objectives should be essential to students’ skills and growth during the specific lesson incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  measurable short-term appropriate important  drag and drop each characteristic with its meaning specific a learning objective should describe what the learner is expected to learn or achieve there must be a way to track students’ growth while learning learning objectives should be made to fit the lesson rather than the unit learning objectives should be made appropriate for students age and ability levels learning objectives should be essential to students’ skills and growth during the specific lesson</slidetext>
+      <slidetext slideid="6kzrCffFph3.6VwZ2GBLxfv" slidebank="false" type="slide">attributes of learning objectives a quality learning objective is specific, measurable, short-term, appropriate, and important </slidetext>
+      <slidetext slideid="5dWBNJZA10Q.6rKz21zKXjs" slidebank="false" type="slide">integration phase</slidetext>
+      <slidetext slideid="5dWBNJZA10Q.5W59wkDyyqE" slidebank="false" type="slide">learning objectives learning objectives are effective when created appropriately.  </slidetext>
+      <slidetext slideid="5dWBNJZA10Q.65DU5yC6X6v" slidebank="false" type="slide">objectives vs. outcomes when creating your objectives you want to make sure they are lesson specific rather than unit specific. </slidetext>
+      <slidetext slideid="5dWBNJZA10Q.5anucEExFCT" slidebank="false" type="slide">ask yourself before creating learning objectives, make sure they are appropriate to your audience and goals.  </slidetext>
+      <slidetext slideid="5dWBNJZA10Q.6PMIFfjzB4Y" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again false. learning objectives are short term goals that help students understand specific concepts of a lesson incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  true true true true true true false false false false false false  learning objectives are long-term goals</slidetext>
+      <slidetext slideid="5dWBNJZA10Q.5zYWEvNZ7Pu" slidebank="false" type="slide">case study case study:  you are grading students’ quizzes for the lesson and notice they are not performing as well as you had hoped. you felt like you were doing everything right by showing videos, having hands on activities, and answering any questions your students had. they do well when they are in centers but did not do anywhere near close as good on their tests. you ask your partner teacher about this, and she asks about your learning objectives. after this conversation you realize that your learning objectives are learning goals.  directions: after reading this scenario reflect on what you learned about between learning objectives and learning goals. on the next slide, you will read the example “learning objectives” that were presented to the students. then you will fill out the graphic organizer on the slide after. on the left you will note the characteristic that was missing from the objective, and on the right, you will rewrite it to make it a true learning objective.  </slidetext>
+      <slidetext slideid="5dWBNJZA10Q.6n2JixT2hzD" slidebank="false" type="slide">case study learning objectives given to students:  1.   students will learn what a numerator and denominator is students will know how to add and subtract fractions with different numerators/denominators students will know basic fractions </slidetext>
+      <slidetext slideid="5dWBNJZA10Q.5dIHugJTgIB" slidebank="false" type="slide">case study characteristic missing 1. 2. 3. how can we improve this objective? 1.  2.  3.  type your answers here type your answers here </slidetext>
+      <slidetext slideid="5dWBNJZA10Q.6MpmLD90pxH" slidebank="false" type="slide">case study characteristic missing 1. specific 2. appropriate, short-term 3. specific, important how can we improve this objective? 1. students will define what a numerator and denominator is 2. “students can identify fractions on a number line” 3. ‘students will be able to identify basic fractions such as 1 whole and 1 half </slidetext>
+      <slidetext slideid="5dWBNJZA10Q.5dxTMN35shC" slidebank="false" type="slide">summary learning objectives are specific, measurable, short-term, appropriate, and important goals for students to attain at the end of lessons.  </slidetext>
+      <slidetext slideid="6SLXaezMnvv.6kuI0K5CXha" slidebank="false" type="slide">resolution phase</slidetext>
+      <slidetext slideid="6SLXaezMnvv.6M8JNMl1nzQ" slidebank="false" type="slide">big idea learning objectives are critical to classroom learning and should be specific enough to emphasize the main idea of a lesson </slidetext>
+      <slidetext slideid="6SLXaezMnvv.6Gac6R1ffeM" slidebank="false" type="slide">post lesson quiz complete the following 5 questions. to receive a passing grade for this course you must receive at least an 80% </slidetext>
+      <slidetext slideid="6SLXaezMnvv.5kmQtpjLpv6" slidebank="false" type="slide">certificate put your name in the fill in the blank to customize your certificate.   </slidetext>
+      <slidetext slideid="6SLXaezMnvv.5k8YDK9MU7K" slidebank="false" type="slide">the correct answer is a. you want to ask yourself what do you want your students to achieve during this lesson. if you know what the end goal is then it will be easier to make an objective for the lesson.    submit  before creating your learning objective, what is one question to consider? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? will my students be successful during this lesson? will my students be successful during this lesson? will my students be successful during this lesson? will my students be successful during this lesson? will my students be successful during this lesson? will my students be successful during this lesson? will my students have interest in this topic? will my students have interest in this topic? will my students have interest in this topic? will my students have interest in this topic? will my students have interest in this topic? will my students have interest in this topic? do i enjoy teaching about this topic? do i enjoy teaching about this topic? do i enjoy teaching about this topic? do i enjoy teaching about this topic? do i enjoy teaching about this topic? do i enjoy teaching about this topic? multiple choice question #1</slidetext>
+      <slidetext slideid="6SLXaezMnvv.6h5cfG4MRSm" slidebank="false" type="slide">the correct answer is d. important is not one of the characteristics of learning objectives that we discussed during today's lesson.   submit  important important important important important important which of the following is not a characteristic of learning objectives specific specific specific specific specific specific measurable measurable measurable measurable measurable measurable short-term short-term short-term short-term short-term short-term interest interest interest interest interest interest multiple choice question #2 </slidetext>
+      <slidetext slideid="6SLXaezMnvv.6fkR8cZguzZ" slidebank="false" type="slide">learning objectives are short term while learning goals are long term  submit  learning objectives are _____ while learning goals are _____ short term, long term short term, long term short term, long term short term, long term short term, long term short term, long term long term, short term long term, short term long term, short term long term, short term long term, short term long term, short term fill in the blank question #3 </slidetext>
+      <slidetext slideid="6SLXaezMnvv.6g8UE4yh8Ao" slidebank="false" type="slide">there must be a way to measure students’ growth while learning   submit  there must be a way to _____ students’ growth while learning measure measure measure measure measure measure inspect inspect inspect inspect inspect inspect praise praise praise praise praise praise fill in the blank question #4</slidetext>
+      <slidetext slideid="6SLXaezMnvv.5s1O4gLUuxi" slidebank="false" type="slide">false. a learning objective should specifically describe what the learner is expected to achieve/learn  submit  a learning objective should broadly describe what the learner is expected to achieve/learn true true true true true true false false false false false false true or flase  question #5</slidetext>
+      <slidetext slideid="6SLXaezMnvv.6dnmyOTOyhQ" slidebank="false" type="slide">results congratulations, %certificatename% ! you have passed this course on creating effective learning objectives. check the next slide for your certificate.  </slidetext>
+      <slidetext slideid="6SLXaezMnvv.6IEZdGedhpI" slidebank="false" type="slide">results unfortunately, %certificatename% . you have not passed this course on creating effective learning objectives. try again after 7 days.  </slidetext>
+      <slidetext slideid="6SLXaezMnvv.5WmPo0d6Al4" slidebank="false" type="slide">professional development of learning objectives alexandra drsek %certificatename%</slidetext>
+      <slidetext slideid="6SLXaezMnvv.63oH3FxkttO" slidebank="false" type="slide">questions?? if you have any questions regarding this presentation, please feel free to reach out. </slidetext>
+      <slidetext slideid="6SLXaezMnvv.6VxVnQkHbPb" slidebank="false" type="slide">thank you thank you for taking the time to complete this lesson to learn more about creating effective learning objectives.  </slidetext>
+      <slidetext slideid="6SLXaezMnvv.5Y6w2r1Ao3i" slidebank="false" type="slide">references abbey, e. creating online learning objectives, 1 dec. 2016, 	softchalkcloud.com/lesson/serve/t5zxjpuda8ksya/html.  clarke, s. “explain learning objectives.” australian education research 	organisation, 26 feb. 2024,  www.edresearch.edu.au/guides-	resources/practiceguides/explain-learning-objectives  goger, l “selecting standards and creating learning objectives.” oer commons, 	21 july 2020, oercommons.org/courseware/lesson/8640/overview . </slidetext>
+      <slidetext slideid="5ubs5y94ZQg" slidebank="true" type="slide">  how often do you create learning objectives in your class?</slidetext>
+      <slidetext slideid="6qOtvYv55VB" slidebank="true" type="slide"> 2 2 2 2 2 2 3 3 3 3 3 3 4 4 4 4 4 4 5 5 5 5 5 5 on a scale of 1-5, how knowledgeable do you think you are about learning objectives? 5 is very knowledgeable, 1 is not knowledgeable at all. 1 1 1 1 1 1</slidetext>
+      <slidetext slideid="5oIcdUxxiWs" slidebank="true" type="slide"> sometimes sometimes sometimes sometimes sometimes sometimes all the time all the time all the time all the time all the time all the time how often do you create learning objectives in your class? never never never never never never</slidetext>
+      <slidetext slideid="664Khz1dNej" slidebank="true" type="slide">  create a learning objective that you would present to your class on a lesson about fractions</slidetext>
+      <slidetext slideid="6g57xOL07Vb" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  learning goals learning goals learning goals learning goals learning goals learning goals which of the following is a narrow and measurable expectation of lessons? learning objectives learning objectives learning objectives learning objectives learning objectives learning objectives</slidetext>
+      <slidetext slideid="5s6w9tNcuMm" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  will my students be successful during the lesson? will my students be successful during the lesson? will my students be successful during the lesson? will my students be successful during the lesson? will my students be successful during the lesson? will my students be successful during the lesson? do i enjoy teaching about this topic? do i enjoy teaching about this topic? do i enjoy teaching about this topic? do i enjoy teaching about this topic? do i enjoy teaching about this topic? do i enjoy teaching about this topic? before creating your learning objectives, what is one question that you should consider? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson?</slidetext>
+      <slidetext slideid="6DYoueXWllz" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  true true true true true true false false false false false false the five characteristics of learning objectives include: specific, measurable, short-term, appropriate, important</slidetext>
+      <slidetext slideid="6XuL60SBOHG" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue   there must be a way to _____ students’ growth while learning</slidetext>
+      <slidetext slideid="69lXQ8sLowD" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  long term, short term learning objectives are ____ while learning goals are _____ short term, long term </slidetext>
+      <slidetext slideid="6Wmvgybw5Q3" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  true true true true true true false false false false false false a learning objective should broadly describe what the learner is expected to learn and achieve</slidetext>
+      <slidetext slideid="6Wx2IFbw1l0" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? how much will students enjoy this lesson? how much will students enjoy this lesson? how much will students enjoy this lesson? how much will students enjoy this lesson? how much will students enjoy this lesson? how much will students enjoy this lesson? how will students demonstrate what they have learned? how will students demonstrate what they have learned? how will students demonstrate what they have learned? how will students demonstrate what they have learned? how will students demonstrate what they have learned? how will students demonstrate what they have learned? choose the following questions that you should consider before creating a learning objective</slidetext>
+      <slidetext slideid="5Ziwuj45GqY" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  broad, measurable, short-term, appropriate, important broad, measurable, short-term, appropriate, important broad, measurable, short-term, appropriate, important broad, measurable, short-term, appropriate, important broad, measurable, short-term, appropriate, important broad, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, important specific, measurable, short-term, appropriate, irrelevant specific, measurable, short-term, appropriate, irrelevant specific, measurable, short-term, appropriate, irrelevant specific, measurable, short-term, appropriate, irrelevant specific, measurable, short-term, appropriate, irrelevant specific, measurable, short-term, appropriate, irrelevant which of the following includes the 5 characteristics of learning objectives? specific, measurable, long-term, appropriate, important specific, measurable, long-term, appropriate, important specific, measurable, long-term, appropriate, important specific, measurable, long-term, appropriate, important specific, measurable, long-term, appropriate, important specific, measurable, long-term, appropriate, important</slidetext>
+      <slidetext slideid="5mEKuqNAf6P" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  short-term specific appropriate important match each characteristic with its meaning measurable there must be a way to track students’ growth while learning leaning objectives should be made to fit the lesson rather than the unit a learning objective should describe what the learner is expected to achieve/learn learning objectives should be made appropriate for students age and ability level learning objectives should be essential to students’ skills and growth during the specific lesson</slidetext>
+      <slidetext slideid="5YmaqZrdJkw" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  true true true true true true false false false false false false learning objectives are long-term goals</slidetext>
+      <slidetext slideid="5YA9WI80Mc1" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  will my students be successful during this lesson? will my students be successful during this lesson? will my students be successful during this lesson? will my students be successful during this lesson? will my students be successful during this lesson? will my students be successful during this lesson? will my students have interest in this topic? will my students have interest in this topic? will my students have interest in this topic? will my students have interest in this topic? will my students have interest in this topic? will my students have interest in this topic? do i enjoy teaching this topic? do i enjoy teaching this topic? do i enjoy teaching this topic? do i enjoy teaching this topic? do i enjoy teaching this topic? do i enjoy teaching this topic? before creating your learning objective, what is one question to consider? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson? what do you want students to achieve during this lesson?</slidetext>
+      <slidetext slideid="5Yne5a7uhRy" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  true true true true true true false false false false false false the five characteristics of learning objectives are specific, measurable, short-term, appropriate, and important</slidetext>
+      <slidetext slideid="62KuTLHn4m1" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  long term, short term learning objectives are _____ while learning goals are _____ short term, long term </slidetext>
+      <slidetext slideid="5WXsUjkUFX1" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue   there must be a way to _____ students’ growth while learning</slidetext>
+      <slidetext slideid="6iikpn1mD4l" slidebank="true" type="slide">incorrect you did not select the correct response. continue continue continue continue continue continue correct that's right!  you selected the correct response. continue continue continue continue continue continue  true true true true true true false false false false false false a learning objective should broadly describe what the learner is expected to achieve and learn</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#464646'&gt;Here are the links to references from creating this course!&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://www.edresearch.edu.au/guides-resources/practice-guides/explain-learning-objectives " image="story_content/url.png" title="Explain Learning Objectives" />
+      <resource url="https://softchalkcloud.com/lesson/serve/t5ZXjpuda8kSYA/html" image="story_content/url.png" title="Creating Online Objectives" />
+      <resource url="https://oercommons.org/courseware/lesson/8640/overview" image="story_content/url.png" title="Selecting Standards and Creating Learning Objectives" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5ZTnzS0JzRm.64iKP59b0bR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Hello! Welcome to learning objectives presented by Alexandra Drsek"&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZTnzS0JzRm.6mf7EaES2nl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Welcome! Today we will be talking about what learning objectives are and how to make them effective. To successfully complete this course, you must watch the video, attempt all questions, and have well thought out responses. "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZTnzS0JzRm.5iwW0vRCEdF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Just a reminder to put any of your electronics such as your phone to the side, shut your door, and remove any other distractions."&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZTnzS0JzRm.5lgINSpBn9z" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="By the end of this course, you will be able to define what a learning objective is, list the five characteristics of learning objectives, and create your own learning objectives"&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5ZTnzS0JzRm.5qOZqWnjQrG" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="By the end of this course, you will be able to define what a learning objective is, list the five characteristics of learning objectives, and create your own learning objectives"&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5weohW4vBB0.6PrCKrcpV1R" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Pretend that you are about to teach a lesson to your students about fractions, create a learning objective that you would present to your class. Think about your learning objective and write down your answer"&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5weohW4vBB0.5VERe94msoj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Now that you have had some time to create your own learning objective for this lesson, lets discuss. Share your objective. How did you come up with this objective? "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5weohW4vBB0.6DwuhFdiaqk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Our big idea for this lesson is that Learning Objectives are critical to classroom learning and should be specific enough to emphasize the main idea of a lesson (Goger, 2020). "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5weohW4vBB0.6SSmfTEnvkg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Did you know that many educators often confuse learning objectives with learning goals? While these two things may sound similar, they are more different than similar "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5weohW4vBB0.66YvlVejUCY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A learning goal is a broad generalized statement describing what students will understand (Abbey, 2016). These goals are not measurable and cannot be validated. An example of this would be ”students will understand what a fraction is” or “Students will understand what a numerator is”"&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5weohW4vBB0.5w9ujt31K3l" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Learning Objectives are specific and tangible statements that show students what is expected from them by the end of the lesson (Clarke, 2016). Examples of this include “Students will be able to identify the numerator” “Students will be able to identify the number of shaded parts of a circle"&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6kzrCffFph3.6YxJCOpG48i" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Before creating your learning objectives for your lesson, consider the following questions. What do you want your students to learn/achieve during this lesson, how will students' growth be measured, and how will students demonstrate what they have learned (Goger, 2020). "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6kzrCffFph3.5si5KjgTCW5" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="A learning objective should specifically describe what the learner is expected to achieve/learn (Abbey 2016). This is not a vague statement such as ”Students will learn about learning objectives.” This statement is also about the lesson and what the student will learn rather than what the student will achieve during an activity."&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6kzrCffFph3.5l5HMQqGh7z" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There must be a way to measure student growth that is taking place during the lesson (Abbey, 2016). Student learning should be able to be documented and monitored."&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6kzrCffFph3.6ZacpzUXo9S" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Learning objectives should be created to fit the timeline of the lesson (Abbey, 2016). When these statements begin to become lengthy that is when they start to become learning outcomes. "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6kzrCffFph3.6WkjlxH99Wr" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Learning Objectives should be made appropriate for students age and ability level (Abbey, 2016). These goals also must be reachable for students to be met in a short amount of time. Although these are short term goals, they should not be made too easy for students either. "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6kzrCffFph3.5mBpcTPTLv7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The learning objectives should be important to the content and skills being taught an introduces to the students (Abbey 2016)."&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6kzrCffFph3.6VwZ2GBLxfv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When creating learning objectives there are 5 characteristics that make them effective along with differentiate them from a learning goal. "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dWBNJZA10Q.5W59wkDyyqE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Learning Objectives are effective when created appropriately. Students will show more success and growth when learning objectives are measurable, specific, short-term, appropriate, and important. When learning objectives start to stray away from these traits, they will become learning outcomes or learning goals. "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dWBNJZA10Q.65DU5yC6X6v" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In the classroom, you can have learning objectives and learning outcomes. Make sure when creating your learning objectives that they are specific to the lesson and have short term timelines rather than making them overarching timelines to be long term over a unit. That is when they will begin to be outcomes rather than objectives. "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dWBNJZA10Q.5anucEExFCT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="72" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Size="100" BulletChar="-" BulletFont="Calibri"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Before creating learning objectives, make sure that they are appropriate to your audience and goals by asking yourself What do you want students to achieve during this lesson? How will students’ growth be measured? How will students demonstrate what they have learned?"&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dWBNJZA10Q.5zYWEvNZ7Pu" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Case Study: "&gt;
+        &lt;Style FontFamily="Times New Roman" FontIsUnderline="True" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" You are grading students’ quizzes for the lesson and notice they are not performing as well as you had hoped. You felt like you were doing everything right by showing videos, having hands on activities, and answering any questions your students had. They do well when they are in centers but did not do anywhere near close as good on their tests. You ask your partner teacher about this, and she asks about your learning objectives. After this conversation you realize that your learning objectives are learning goals. &amp;#xA;"&gt;
+        &lt;Style FontFamily="Times New Roman" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Times New Roman" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Directions:"&gt;
+        &lt;Style FontFamily="Times New Roman" FontIsUnderline="True" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" After reading this scenario reflect on what you learned about between learning objectives and learning goals. On the next slide, you will example the “learning objectives” that were presented to the students. Then you will fill out the graphic organizer on the slide after. On the left you will note the characteristic that was missing from the objective, and on the left you will rewrite it to make it a true learning objective. "&gt;
+        &lt;Style FontFamily="Times New Roman" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dWBNJZA10Q.6n2JixT2hzD" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The following learning objectives were given to students &amp;#xA;"&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="1. Students will learn what a numerator and denominator is&amp;#xA;"&gt;
+        &lt;Style FontFamily="Times New Roman" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="-72" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="ListNumberedAsArabic" ListTypeFormat="Period" Start="2" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Students will know how to add and subtract fractions with different numerators/denominators&amp;#xA;"&gt;
+        &lt;Style FontFamily="Times New Roman" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="-72" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="ListNumberedAsArabic" ListTypeFormat="Period" Start="3" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Students will know basic fractions"&gt;
+        &lt;Style FontFamily="Times New Roman" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dWBNJZA10Q.5dIHugJTgIB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Fill in the following graphic organizer. On the left give the missing characteristics and, on the right, improve the objective to make it more accurate. "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dWBNJZA10Q.6MpmLD90pxH" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="For the first objective, the characteristic that is missing is that it is not specific. A way to improve the objective is to state students will define what a numerator and denominator is &amp;#xA;"&gt;
+        &lt;Style FontFamily="Helvetica Neue" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Helvetica Neue" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="For the second objective characteristics missing could be appropriate and even short term. We can edit it to say students can identify fractions on a number line. This one is tricky because students are just learning fractions are not going to be able to add and subtract fractions so this definitely is not appropriate for their abilities or age group. That would be more of a long-term goal as well.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Helvetica Neue" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Helvetica Neue" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="And lastly, the third objective is missing specific and important. We can revise us to say students will be able to identify basic fractions such as one hole and one half so that those important fractions are being mentioned and it’s more specific"&gt;
+        &lt;Style FontFamily="Helvetica Neue" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SLXaezMnvv.6M8JNMl1nzQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Our big idea for this lesson is that Learning Objectives are critical to classroom learning and should be specific enough to emphasize the main idea of a lesson (Goger, 2020). "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SLXaezMnvv.6Gac6R1ffeM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Complete the following 5 questions. To receive a passing grade for this course you must receive at least an 80%"&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SLXaezMnvv.63oH3FxkttO" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you have any questions regarding this presentation, please feel free to reach out."&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6SLXaezMnvv.6VxVnQkHbPb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;Document xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Thank you for taking the time to complete this lesson to learn more about creating effective Learning Objectives "&gt;
+        &lt;Style LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data>
+    <terms>
+      <term title="Appropriate">Objectives should be appropriate to students age and abilities</term>
+      <term title="Important">Objectives should be essential to students goals and growth during and specific lesson </term>
+      <term title="Learning Goals">A broad generalized statement describing what students should understand </term>
+      <term title="Learning Objectives">Specific and tangible statements of what is expected by students at the end of the lesson </term>
+      <term title="Measurable">The objective must include a way to measure students growth</term>
+      <term title="Short-Term">These objectives should be made short term to the lesson rather than long term to the unit </term>
+      <term title="Specifc">Specifically describe what the learner is expected to achieve or learn </term>
+    </terms>
+  </glossary_data>
+</bwFrame>
